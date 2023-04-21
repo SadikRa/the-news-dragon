@@ -17,6 +17,7 @@ const LeftNav = () => {
             <h3 className='my-3 p-3 bg-secondary rounded'>National News</h3>
             {
                 categories.map(categories => <p key={categories.id}>
+                    
 
                         <Link to={`/categories/${categories.id}`} className='text-decoration-none'>{categories.name}</Link>
 
